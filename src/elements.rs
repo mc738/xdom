@@ -1,0 +1,21 @@
+pub enum Element {
+    Root(Vec<Element>),
+    Section(String, Vec<Element>),
+    Header1,
+    Header2,
+    Header3,
+    Header4,
+    Header5,
+    Header6,
+    Paragraph,
+    Span,
+    OrderedList,
+    UnorderedList,
+    ListItem,
+    Image,
+    Link,
+    Table,
+    TableColumn,
+    TableRow,
+    TableCell
+}
